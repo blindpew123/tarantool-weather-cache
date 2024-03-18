@@ -1,0 +1,24 @@
+---
+tarantool-weather-cache.router:
+  advertise_uri: localhost:3301
+  http_port: 8081
+
+tarantool-weather-cache.s1-master:
+  advertise_uri: localhost:3302
+  http_port: 8082
+
+tarantool-weather-cache.s1-replica:
+  advertise_uri: localhost:3303
+  http_port: 8083
+
+tarantool-weather-cache.s2-master:
+  advertise_uri: localhost:3304
+  http_port: 8084
+
+tarantool-weather-cache.s2-replica:
+  advertise_uri: localhost:3305
+  http_port: 8085
+
+tarantool-weather-cache-stateboard:
+  listen: localhost:4401
+  password: passwd

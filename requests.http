@@ -1,0 +1,6 @@
+###
+
+GET http://localhost:8081/forecast?latitude=12.1&longitude=18
+
+###
+
